@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimliu7434/stand-bot-hono.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimliu7434/stand-bot-hono/issues"
+  },
+  "homepage": "https://github.com/jimliu7434/stand-bot-hono#readme",
+  "dependencies": {
+    "hono": "^4.7.10",
+    "node-cron": "^4.0.7",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
